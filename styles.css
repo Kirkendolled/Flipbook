@@ -16,7 +16,7 @@ body {
 /* Book */
 .book {
     position: relative;
-    width: 600px;
+    width: 400px;
     height: 400px;
     transition: transform 0.5s;
 }
@@ -32,7 +32,7 @@ body {
 
 .front,
 .back {
-    background-color: white;
+    background-color: powderblue;
     position: absolute;
     width: 100%;
     height: 100%;
