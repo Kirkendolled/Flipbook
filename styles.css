@@ -120,3 +120,45 @@ img {
     height: 100%;
     object-fit: cover;
 }
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .book {
+        width: 100%;
+        height: auto;
+        max-width: 350px;
+        max-height: 500px;
+    }
+
+    .buttons-container {
+        flex-direction: row;
+    }
+
+    button {
+        margin: 10px;
+    }
+
+    i {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    .book {
+        width: 100%;
+        height: auto;
+        max-width: 280px;
+        max-height: 400px;
+    }
+
+    .buttons-container {
+        flex-direction: row;
+    }
+
+    button {
+        margin: 5px;
+    }
+
+    i {
+        font-size: 25px;
+    }
+}
